@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16164FED280FE5A000FCD5A5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 16164FEC280FE5A000FCD5A5 /* Alamofire */; };
+		16164FF0280FE5DF00FCD5A5 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 16164FEF280FE5DF00FCD5A5 /* SwiftyJSON */; };
+		16164FF2280FE87700FCD5A5 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16164FF1280FE87700FCD5A5 /* SignInViewModel.swift */; };
+		16164FF4280FEAD200FCD5A5 /* BoolAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16164FF3280FEAD200FCD5A5 /* BoolAuthViewModel.swift */; };
+		16164FF6280FEB9200FCD5A5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16164FF5280FEB9200FCD5A5 /* UserModel.swift */; };
+		16164FF8280FEC0300FCD5A5 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16164FF7280FEC0300FCD5A5 /* UserViewModel.swift */; };
 		5237014B27D88B4B00068BB0 /* ScheduleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5237014A27D88B4B00068BB0 /* ScheduleApp.swift */; };
-		5237014D27D88B4B00068BB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5237014C27D88B4B00068BB0 /* ContentView.swift */; };
 		5237014F27D88B4F00068BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5237014E27D88B4F00068BB0 /* Assets.xcassets */; };
 		5237015227D88B4F00068BB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5237015127D88B4F00068BB0 /* Preview Assets.xcassets */; };
+		5237015A27D88BF100068BB0 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5237015927D88BF100068BB0 /* SignIn.swift */; };
+		5237015C27D88BF900068BB0 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5237015B27D88BF900068BB0 /* SignUp.swift */; };
+		5237015E27D88C0000068BB0 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5237015D27D88C0000068BB0 /* Main.swift */; };
+		5237016027D88C1500068BB0 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5237015F27D88C1500068BB0 /* Transition.swift */; };
+		5237016627D88D1A00068BB0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5237016527D88D1A00068BB0 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16164FF1280FE87700FCD5A5 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		16164FF3280FEAD200FCD5A5 /* BoolAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoolAuthViewModel.swift; sourceTree = "<group>"; };
+		16164FF5280FEB9200FCD5A5 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		16164FF7280FEC0300FCD5A5 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		5237014727D88B4B00068BB0 /* Schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5237014A27D88B4B00068BB0 /* ScheduleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleApp.swift; sourceTree = "<group>"; };
-		5237014C27D88B4B00068BB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5237014E27D88B4F00068BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5237015127D88B4F00068BB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5237015827D88BBF00068BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5237015927D88BF100068BB0 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		5237015B27D88BF900068BB0 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		5237015D27D88C0000068BB0 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		5237015F27D88C1500068BB0 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		5237016527D88D1A00068BB0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16164FF0280FE5DF00FCD5A5 /* SwiftyJSON in Frameworks */,
+				16164FED280FE5A000FCD5A5 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +72,12 @@
 		5237014927D88B4B00068BB0 /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
-				5237014A27D88B4B00068BB0 /* ScheduleApp.swift */,
-				5237014C27D88B4B00068BB0 /* ContentView.swift */,
+				5237016427D88C6300068BB0 /* common */,
+				5237016327D88C5900068BB0 /* Model */,
+				5237016227D88C5100068BB0 /* ViewModel */,
+				5237016127D88C4500068BB0 /* Views */,
 				5237014E27D88B4F00068BB0 /* Assets.xcassets */,
+				5237016527D88D1A00068BB0 /* Launch Screen.storyboard */,
 				5237015027D88B4F00068BB0 /* Preview Content */,
 			);
 			path = Schedule;
@@ -65,6 +89,44 @@
 				5237015127D88B4F00068BB0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5237016127D88C4500068BB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5237015927D88BF100068BB0 /* SignIn.swift */,
+				5237015B27D88BF900068BB0 /* SignUp.swift */,
+				5237015D27D88C0000068BB0 /* Main.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5237016227D88C5100068BB0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				16164FF1280FE87700FCD5A5 /* SignInViewModel.swift */,
+				16164FF3280FEAD200FCD5A5 /* BoolAuthViewModel.swift */,
+				16164FF7280FEC0300FCD5A5 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5237016327D88C5900068BB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16164FF5280FEB9200FCD5A5 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5237016427D88C6300068BB0 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				5237015827D88BBF00068BB0 /* Info.plist */,
+				5237014A27D88B4B00068BB0 /* ScheduleApp.swift */,
+				5237015F27D88C1500068BB0 /* Transition.swift */,
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +145,10 @@
 			dependencies = (
 			);
 			name = Schedule;
+			packageProductDependencies = (
+				16164FEC280FE5A000FCD5A5 /* Alamofire */,
+				16164FEF280FE5DF00FCD5A5 /* SwiftyJSON */,
+			);
 			productName = Schedule;
 			productReference = 5237014727D88B4B00068BB0 /* Schedule.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +177,10 @@
 				Base,
 			);
 			mainGroup = 5237013E27D88B4B00068BB0;
+			packageReferences = (
+				16164FEB280FE59F00FCD5A5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				16164FEE280FE5DF00FCD5A5 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = 5237014827D88B4B00068BB0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5237016627D88D1A00068BB0 /* Launch Screen.storyboard in Resources */,
 				5237015227D88B4F00068BB0 /* Preview Assets.xcassets in Resources */,
 				5237014F27D88B4F00068BB0 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5237014D27D88B4B00068BB0 /* ContentView.swift in Sources */,
+				5237016027D88C1500068BB0 /* Transition.swift in Sources */,
+				5237015E27D88C0000068BB0 /* Main.swift in Sources */,
+				16164FF6280FEB9200FCD5A5 /* UserModel.swift in Sources */,
+				16164FF2280FE87700FCD5A5 /* SignInViewModel.swift in Sources */,
+				5237015C27D88BF900068BB0 /* SignUp.swift in Sources */,
+				5237015A27D88BF100068BB0 /* SignIn.swift in Sources */,
 				5237014B27D88B4B00068BB0 /* ScheduleApp.swift in Sources */,
+				16164FF8280FEC0300FCD5A5 /* UserViewModel.swift in Sources */,
+				16164FF4280FEAD200FCD5A5 /* BoolAuthViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,14 +347,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Schedule/Preview Content\"";
-				DEVELOPMENT_TEAM = 9K633ZT95W;
+				DEVELOPMENT_TEAM = M4GCY8V9FA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Schedule/common/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,14 +379,17 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Schedule/Preview Content\"";
-				DEVELOPMENT_TEAM = 9K633ZT95W;
+				DEVELOPMENT_TEAM = M4GCY8V9FA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Schedule/common/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +425,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		16164FEB280FE59F00FCD5A5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		16164FEE280FE5DF00FCD5A5 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		16164FEC280FE5A000FCD5A5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16164FEB280FE59F00FCD5A5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		16164FEF280FE5DF00FCD5A5 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16164FEE280FE5DF00FCD5A5 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5237013F27D88B4B00068BB0 /* Project object */;
 }
